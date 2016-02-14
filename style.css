@@ -1,0 +1,157 @@
+/* ManBearPig */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url('images/background-field2.png') center center no-repeat;
+    background-size: cover;
+}
+
+header {
+    margin-top: 0px;
+    font-family: Helvetica, sans-serif;
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+}
+
+nav#head {
+    background-color: green;    
+    background-color: rgba(0, 50, 50, .2);
+    margin-top: 110px;
+    margin-left: -15px;
+    padding: 20px 40px;
+    list-style-type: none;
+}
+
+nav#head ul li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+#manbearpig-image {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+a:link, a:visited {
+    color: black;;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@keyframes navAnimation {
+    from { color: black; background-color: rgba(0, 50, 50, .2); border-radius: none; }
+    to   { color: #555; background-color: rgba(250, 250, 250, .6); border-radius: 20px;}
+}
+
+a:hover {
+    text-decoration: underline;
+    animation-name: navAnimation;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+#container {
+    display: inline-block;
+    color: white;
+    width: 65%;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#side-bar {
+    display: inline-block;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    height: 650px;
+    float: right;
+    margin: 0 auto;
+    background-color: green;
+    background-color: rgba(100, 100, 100, .8);
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    list-style-type: none; 
+}
+
+#side-bar h3 {
+    margin-top: 25px;
+}
+
+#mascots li {
+    display: inline;
+}
+
+
+#dump, #irish, #visors, #cletus, #fuego, #regi, #apollyon, #smack, #penos, #kardiac, #goats, #gery {
+    display: inline-block;
+    height : 60px;
+    padding: 0px;
+    margin: 10px 30px;
+    margin-bottom: 10px;
+}
+
+#locker-room {
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: green;
+    background-color: rgba(100, 100, 100, .8);
+    text-align: center;
+}
+
+#container #boxes {
+    width: 80%;
+    margin: 5px auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#box1, #box2 {
+    display: inline-block;
+    width: 45%;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    background-color: rgba(100, 100, 100, .8); 
+    text-align: center;
+}
+
+hr {
+    border-color: black;
+}
+
+footer {
+    background-color: green;
+    background-color: rgba(0, 50, 50, .2);
+    clear: both;
+    text-align: center;
+}
+
+#foot ul li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-color: none;
+    text-align: right;
+}
+
+footer p {
+    margin-top: 3px;
+}
